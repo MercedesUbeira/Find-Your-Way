@@ -1,0 +1,59 @@
+:root {
+  --main-color: #ffffff;
+  --hover-color: #2469c9;
+  --body-color: #9da5bf;
+  --box-color: rgb(196, 236, 243);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h3 { font-size: 20px;}
+
+p {
+    font-size: 12px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: auto;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--body-color);
+    padding: 20px;
+    text-align: center;
+}
+
+/* CHECK THE HOVER OUT EFFECT LATER */
+.card:hover {
+    box-shadow: 0px 0px 10px var(--hover-color);
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
