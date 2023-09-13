@@ -1,8 +1,12 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/alarm.css');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300&family=Inconsolata:wght@200&family=Paytone+One&family=Poppins:wght@200&display=swap');
+
 :root {
   --main-color: #ffffff;
   --hover-color: #2469c9;
   --body-color: #9da5bf;
   --box-color: rgb(196, 236, 243);
+  --icons-color: darkblue;
 }
 
 body {
@@ -16,13 +20,16 @@ body {
 
 header {
     text-align: center;
+    
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 65px;
 }
 
-h3 { font-size: 20px;}
+h3 { font-size: 20px;
+    padding: 2px 2px;
+    font-family: 'Comfortaa', cursive;}
 
 p {
     font-size: 12px;
@@ -37,7 +44,7 @@ p {
 }
 
 .card {
-    width: 200px;
+    width: 400px;
     height: auto;
     background-color: var(--box-color);
     border-radius: 10px;
@@ -52,8 +59,14 @@ p {
     transition: all 0.4s ease-in-out;
 }
 
+img {
+    height: 100px;
+    width: auto;
+    margin-top: 40px;
+}
 
-
-
-
-
+.icons {
+    font-size: 50px;
+    margin-top: 10px;
+    color: var(--icons-color);
+}
